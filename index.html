@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>pemilihan rt atau rw baru</h1>
+        <p>silahkan pilih juju atau jeje</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>masukan pilihan mu di sini</h2>
+            <label for="inputnama">nama peserta yang memilih</label>
+            <input type="text" id="inputnama" placeholder="silahkan masukan nama anda">
+            <br><br>
+
+            <label for="inputkategori">silahkan untuk memilih</label>
+            <select name="inputkategori" id="inputkategori">
+                <option value="juju rt">juju rt tujuan nya adalah untuk menjadikan lingkungan yang hijau</option>
+                <option value="jeje rw">jeje rw Menjaga Kerukunan dan Keamanan</option>
+            </select>
+            <br><br>
+
+            <label for="inputpendapat">silahkan masukan pendapat anda</label>
+            <br>
+            <textarea name="inputpendapat" id="inputpendapat" rows="4" placeholder="masukan pendapat anda di sini..."></textarea>
+        </section>
+
+        <button id="tombolkirim" onclick="tambahpendapat()">
+            kirim pendapatanda di sisni</button>
+        <br><br>
+
+        <section class="card">
+            <h2>daftar pendapat(<span id="jumlahpendapat">0</span>) </h2>
+            <section id="daftarpendapat"></section>
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

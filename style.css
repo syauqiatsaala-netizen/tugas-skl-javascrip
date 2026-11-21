@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif;
+    background-color: rgba(0, 255, 255, 0.57);
+    margin: 0;
+    padding: 0;
+    color: rgba(232, 149, 16, 0.993);
+}
+
+header{
+    background-color: rgb(147, 11, 11);
+    color: rgb(213, 187, 18);
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.card{
+    background-color: rgba(198, 30, 30, 0.949);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: flex;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: solid black;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button{
+    margin-top: 17px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(201, 20, 20, 0.86);
+    color: rgb(247, 160, 9);
+    border: 4px 4px 4px 4px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: solid;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.764);
+}
+
+.item-pendapat{
+    background-color: rgb(240, 18, 18);
+    border-left: 4px solid #333333;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.item-pendapat h3{
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.badge{
+    background-color: rgb(238, 147, 10);
+    color: black;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+}
